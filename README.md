@@ -39,6 +39,7 @@ Metrics are available on `/metrics` path. For example: `http://localhost:3000/me
 ## Testing
 
 - Install dependencies with `npm install`
+- Install prisma client `npm install -g prisma`
 - Set `DATABASE_URL` env variable to your test database. Ex: `postgresql://postgres:postgres@localhost:5432/devops_todo_test?schema=public`
 - Start PostgreSQL
 - Run tests with `npm run test`
