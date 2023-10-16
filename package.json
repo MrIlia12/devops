@@ -7,7 +7,7 @@
     "build": "prisma generate && next build && mkdir -p .next/standalone/.next && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public",
     "start": "FORCE_COLOR=0 next start",
     "lint": "next lint",
-    "test": "jest",
+    "test": "prisma generate && jest",
     "migrate": "prisma migrate"
   },
   "dependencies": {
